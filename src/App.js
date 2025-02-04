@@ -19,10 +19,10 @@ function App() {
       <ScrollToTop/>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/projects' element={<Projects/>}/>
-          <Route path='/project/:id' element={<Project_pg/>}/>
-          <Route path='/contacts' element={<Contacts/>}/>
+          <Route path='/Portfolio_Nail' element={<Home/>}/>
+          <Route path='/Portfolio_Nail/projects' element={<Projects/>}/>
+          <Route path='/Portfolio_Nail/projects/:id' element={<Project_pg/>}/>
+          <Route path='/Portfolio_Nail/contacts' element={<Contacts/>}/>
         </Routes>
         <Footer />
       </Router>    
