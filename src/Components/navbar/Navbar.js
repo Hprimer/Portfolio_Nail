@@ -22,7 +22,7 @@ function Navbar() {
                     <BtnDarkMode />
                     <ul className="nav-list">
                         <li className="nav-list__item">
-                            <NavLink to="/Portfolio_Nail" end className={({isActive}) => isActive ? activeLink : notActiveLink}>
+                            <NavLink to="/Portfolio_Nail/" end className={({isActive}) => isActive ? activeLink : notActiveLink}>
                                 Home
                             </NavLink>
                             {/* end нужен в NavLink для того чтобы isActive правильно проверял
