@@ -12,7 +12,7 @@ import './style.css'
 function Project(props) {
 	return (
 			<li className="project">
-				<NavLink to={`/project/${props.proj.id}`} state={{ proj: props.proj }} > 
+				<NavLink to={`/Portfolio_Nail/projects/${props.proj.id}`} state={{ proj: props.proj }} > 
 				{/* // state нужен для передачи массива в Project_pg;
 				// чтобы поймать массив в P_pg нужно использовать useLocation;
 				// чтобы поймать индекс страници нужен useParams */}

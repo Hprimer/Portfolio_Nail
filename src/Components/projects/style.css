@@ -3,11 +3,19 @@
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
-	
+	transition: transform 0.5s ease;
 }
+.project:hover{
+	transform: scale(1.05);
+}
+
 
 .project__img {
 	border-radius: 10px;
+	transition: opacity 0.5s ease;
+}
+.project__img:hover{
+	opacity: 0.75;
 }
 
 .project__title {
