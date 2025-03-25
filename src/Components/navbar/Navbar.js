@@ -14,11 +14,11 @@ function Navbar() {
         <nav className="nav">
             <div className="container">
                 <div className="nav-row">
-                    <NavLink to="/Portfolio_Nail" className='logo'>
+                    <NavLink to="/Portfolio_Nail/ " className='logo'>
                         <strong>Nail's</strong> portfolio
                     </NavLink>
                     {/* <a href="./index.html" className="logo"></a> */}
-                     
+                    
                     <BtnDarkMode />
                     <ul className="nav-list">
                         <li className="nav-list__item">
