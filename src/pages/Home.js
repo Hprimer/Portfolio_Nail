@@ -11,7 +11,7 @@ function Home() {
 									<ul className="content-list">
 											<li className="content-list__item">
 													<h2 className="title-2">Frontend</h2>
-													<p>JavaScript, ReactJS, HTML, CSS, NPM, BootStrap</p>
+													<p>HTML, CSS, JavaScript, ReactJS, Zustand, NPM, BootStrap 5</p>
 											</li>
 											<li className="content-list__item">
 													<h2 className="title-2">Backend</h2>
